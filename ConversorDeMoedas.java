@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class ConversorDeMoedas {
 
-    // 🔑 Sua chave da API (ExtendedRate)
+    // 🔑 Sua chave da API (ExchangeRate)
     private static final String API_KEY = System.getenv("EXCHANGE_API_KEY");
 
     public static void main(String[] args) {
