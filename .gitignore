@@ -1,0 +1,15 @@
+# Arquivos compilados
+*.class
+
+# Diretórios de build
+bin/
+out/
+
+# Arquivos de configuração local
+*.properties
+*.env
+
+# Configurações do IDE
+.vscode/
+.idea/
+*.iml
