@@ -52,10 +52,8 @@ export EXCHANGE_API_KEY="SUA_CHAVE_AQUI"
 
 5- Compile o código Java:
 
-6- javac ConversorDeMoedas.java
+6- ConversorDeMoedas.java
 
 Execute o programa:
-
-java ConversorDeMoedas
 
 Siga as instruções no console para escolher a moeda e digitar o valor.
