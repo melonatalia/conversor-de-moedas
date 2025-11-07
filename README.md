@@ -1,6 +1,6 @@
 # 💱 Conversor de Moedas
 
-Projeto em Java que permite converter valores entre diferentes moedas usando a API **Extended Rate** em tempo real.
+Projeto em Java que permite converter valores entre diferentes moedas usando a API **ExchangeRate** em tempo real.
 
 ---
 
@@ -19,8 +19,8 @@ Projeto em Java que permite converter valores entre diferentes moedas usando a A
 
 ## 🛠️ Tecnologias
 
-- Java (puro)  
-- API **Extended Rate** para taxas de câmbio  
+- Java  
+- API **ExchangeRate** para taxas de câmbio  
 - Git & GitHub para versionamento de código
 
 ---
@@ -30,35 +30,32 @@ Projeto em Java que permite converter valores entre diferentes moedas usando a A
 - **Não exponha sua chave da API no código.**  
 - Use variáveis de ambiente para armazenar informações sensíveis:  
 
-```bash
-# No Windows
+* No Windows
+
 setx EXCHANGE_API_KEY "SUA_CHAVE_AQUI"
 
-# No Linux / Mac
+* No Linux / Mac
+
 export EXCHANGE_API_KEY="SUA_CHAVE_AQUI"
 
 ---
 
-## 🚀 Como usar
+ # 🚀 Como usar
 
-Clone o repositório:
+1- Clone o repositório:
 
-git clone https://github.com/melonatalia/conversor-de-moedas.git
+2- git clone https://github.com/melonatalia/conversor-de-moedas.git
 
+3- Acesse a pasta do projeto:
 
-Acesse a pasta do projeto:
+4- conversor-de-moedas
 
-cd conversor-de-moedas
+5- Compile o código Java:
 
-
-Compile o código Java:
-
-javac ConversorDeMoedas.java
-
+6- javac ConversorDeMoedas.java
 
 Execute o programa:
 
 java ConversorDeMoedas
-
 
 Siga as instruções no console para escolher a moeda e digitar o valor.
